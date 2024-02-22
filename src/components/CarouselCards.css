@@ -1,0 +1,35 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    width: 100%;
+    min-width: 300px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  /* Optional: Add media queries for responsive design */
+  @media (max-width: 768px) {
+    .card {
+      min-width: 100%;
+    }
+  }
